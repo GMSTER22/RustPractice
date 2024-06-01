@@ -5,11 +5,16 @@ This project is my attempt to stretch my knowledge by learning enough about Rust
 
 # Development Environment
 
-*Visual Studio Code
-*Rustup, Rustc, Cargo
+* Visual Studio Code (Code Editor)
+* Rustup (Tool to install and manage Rust)
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Rust](https://www.rust-lang.org/)
 * [StackOverflow](https://stackoverflow.com/)
+
+# Future Work
+
+* Refactor the Code to reuse some of the code (apply the DRY principle)
+* Remove the extra functions used to Update the Task instances values
+* Use the UUID crate to generate random Ids for Task instances Id
