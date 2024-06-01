@@ -1,1 +1,1 @@
-C:\Users\MONSTER\Desktop\Spring\ 2024\cse-310\week-6\todo\target\debug\todo.exe: C:\Users\MONSTER\Desktop\Spring\ 2024\cse-310\week-6\todo\src\main.rs
+C:\Users\12404\Desktop\Spring\ -\ 2024\cse-310-applied-programming\modules\RustPractice\target\debug\todo.exe: C:\Users\12404\Desktop\Spring\ -\ 2024\cse-310-applied-programming\modules\RustPractice\src\main.rs

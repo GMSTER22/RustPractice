@@ -4,7 +4,9 @@ use std::{default, io::{self, Write}};
 // Task Manager Class
 struct TaskManager {
 
-    tasks: Vec<Task>
+    tasks: Vec<Task>,
+
+    id_count: u32
 
 }
 
@@ -68,7 +70,7 @@ impl TaskManager {
     // Method to add a new task
     fn add_new_task(&mut self) {
 
-        let task_id: u32 = self.tasks.len() as u32;
+        // let task_id: u32 = self.tasks.len() as u32;
 
         let mut task_name_input: String = String::new();
 
@@ -82,7 +84,7 @@ impl TaskManager {
 
         let task = Task {
 
-            id: task_id + 1,
+            id: self.id_count + 1,
     
             name: String::from(task_name_input.trim()),
     
@@ -93,6 +95,8 @@ impl TaskManager {
         self.tasks.push(task);
 
         println!("Task added!");
+
+        self.id_count = self.id_count + 1;
 
     }
 
@@ -276,7 +280,9 @@ fn main() {
 
     let mut task_manager = TaskManager {
 
-        tasks: Vec::new()
+        tasks: Vec::new(),
+
+        id_count: 0
 
     };
     
